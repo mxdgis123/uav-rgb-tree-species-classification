@@ -1,5 +1,6 @@
 # uav-rgb-tree-species-classification
 Python code and processed datasets for analyzing the effects of illumination conditions and phenological stages on tree species classification using UAV RGB imagery.
+
 The experiments were implemented in Python using the following libraries:
 - NumPy — 1.23.0
 - Pandas — 2.2.3
@@ -11,3 +12,4 @@ The experiments were implemented in Python using the following libraries:
 - Matplotlib — 3.9.4
 - SHAP — 0.49.1
 
+Five-fold cross-validation was employed in this study, and the model hyperparameters specified in the code are those used in the experiments.
